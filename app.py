@@ -739,9 +739,7 @@ div[data-testid="stDataFrame"] {
     .section-divider {
         display: none !important;
     }
-}
 </style>
-""",StartLine:618,TargetContent:
 """, unsafe_allow_html=True)
 
 
