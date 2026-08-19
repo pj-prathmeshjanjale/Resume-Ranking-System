@@ -431,7 +431,20 @@ div[data-testid="stDataFrame"] * {
     font-weight: 700 !important;
     font-size: 0.9rem !important;
     padding: 0.65rem 1.6rem !important;
-    box-shadow: 0 2px 10px rgba(99,102,241,0.35) !important;
+    box-shadow: 0 4px 14px rgba(99,102,241,0.35), inset 0 1px 0 rgba(255,255,255,0.2) !important;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    cursor: pointer !important;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, #4f46e5 0%, #6d28d9 100%) !important;
+    transform: translateY(-2px) scale(1.015) !important;
+    box-shadow: 0 8px 24px rgba(124,58,237,0.5), 0 0 12px rgba(99,102,241,0.4), inset 0 1px 0 rgba(255,255,255,0.3) !important;
+}
+
+.stButton > button:active {
+    transform: translateY(0px) scale(0.99) !important;
+    box-shadow: 0 2px 8px rgba(124,58,237,0.4) !important;
 }
 
 .stDownloadButton > button {
@@ -441,6 +454,39 @@ div[data-testid="stDataFrame"] * {
     border-radius: 10px !important;
     font-weight: 600 !important;
     font-size: 0.85rem !important;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    cursor: pointer !important;
+}
+
+.stDownloadButton > button:hover {
+    background: rgba(16,185,129,0.25) !important;
+    border-color: rgba(16,185,129,0.6) !important;
+    color: #6ee7b7 !important;
+    transform: translateY(-2px) scale(1.015) !important;
+    box-shadow: 0 6px 20px rgba(16,185,129,0.35) !important;
+}
+
+.stDownloadButton > button:active {
+    transform: translateY(0px) scale(0.99) !important;
+}
+
+.kpi-card, .feat-card {
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+.kpi-card:hover {
+    transform: translateY(-3px) !important;
+    border-color: rgba(124,58,237,0.4) !important;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5), 0 0 16px rgba(124,58,237,0.15) !important;
+}
+
+.streamlit-expanderHeader {
+    transition: background 0.2s ease, border-color 0.2s ease !important;
+}
+
+.streamlit-expanderHeader:hover {
+    background: rgba(99,102,241,0.08) !important;
+    border-color: rgba(99,102,241,0.3) !important;
 }
 
 /* Mobile Responsiveness */
