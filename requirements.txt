@@ -1,0 +1,16 @@
+# Core dependencies
+streamlit>=1.32.0
+scikit-learn>=1.4.0
+pandas>=2.1.0
+matplotlib>=3.8.0
+numpy>=1.26.0
+
+# NLP
+spacy>=3.7.0
+# spaCy English model — installed directly as a pip package for cloud deployment
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+
+# Document extraction
+pdfplumber>=0.10.3
+PyPDF2>=3.0.1
+python-docx>=1.1.0

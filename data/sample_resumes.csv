@@ -1,0 +1,214 @@
+name,category,resume_text
+"Alice Johnson","Data Science","Alice Johnson | Data Scientist | alice.johnson@email.com
+Summary: Experienced Data Scientist with 5 years in machine learning, NLP, and predictive modeling. Passionate about turning raw data into actionable insights.
+Skills: Python, scikit-learn, TensorFlow, PyTorch, pandas, NumPy, matplotlib, seaborn, SQL, PostgreSQL, MongoDB, Apache Spark, AWS, Docker, Git, GitHub, NLP, deep learning, machine learning, statistical analysis, feature engineering, data visualization, Tableau
+Experience:
+- Senior Data Scientist at TechCorp (2021–present): Built NLP pipeline for sentiment analysis on 5M+ customer reviews. Developed recommendation engine increasing sales by 18%. Led A/B testing initiatives.
+- Data Scientist at DataLabs (2019–2021): Created predictive churn model achieving 87% accuracy. Deployed models on AWS SageMaker. Automated ETL pipelines using Apache Airflow.
+Education: M.S. Computer Science, Stanford University (2019). B.S. Mathematics, UC Berkeley (2017).
+Certifications: AWS Certified Machine Learning Specialty, Google Data Analytics Certificate."
+
+"Bob Martinez","Data Science","Bob Martinez | Machine Learning Engineer | bob.m@email.com
+Summary: ML Engineer with 3 years of experience building and deploying scalable machine learning models. Skilled in deep learning and computer vision.
+Skills: Python, PyTorch, Keras, TensorFlow, scikit-learn, OpenCV, computer vision, deep learning, neural networks, pandas, NumPy, SQL, Docker, Kubernetes, GCP, Google Cloud, MLflow, feature engineering, model deployment, Git
+Experience:
+- ML Engineer at VisionAI (2022–present): Developed computer vision models for defect detection in manufacturing. Improved model accuracy from 72% to 94%. Built model serving infrastructure with Docker and Kubernetes on GCP.
+- Junior ML Engineer at StartupX (2021–2022): Implemented image classification pipeline using PyTorch. Built data labeling tool saving 40% annotation time.
+Education: B.S. Computer Science, Georgia Tech (2021).
+Certifications: Google Professional ML Engineer."
+
+"Carol Smith","Data Science","Carol Smith | Data Analyst | carol.s@email.com
+Summary: Data Analyst with 4 years of experience in business intelligence and statistical analysis. Skilled in SQL, Python, and data visualization.
+Skills: Python, SQL, PostgreSQL, MySQL, pandas, NumPy, matplotlib, Tableau, Power BI, Excel, statistical analysis, data analysis, R, regression, A/B testing, Google Analytics, communication, presentation skills
+Experience:
+- Senior Data Analyst at RetailCo (2022–present): Built executive dashboards in Tableau tracking $50M revenue. Performed cohort analysis and customer segmentation using Python.
+- Data Analyst at FinTech Inc (2020–2022): Automated weekly reporting reducing manual effort by 70%. Conducted A/B tests for product features.
+Education: B.S. Statistics, University of Michigan (2020)."
+
+"David Lee","Data Science","David Lee | NLP Researcher | david.lee@email.com
+Summary: NLP specialist with expertise in transformer models, text classification, and information extraction. Published researcher in computational linguistics.
+Skills: Python, NLP, natural language processing, spacy, NLTK, transformers, Hugging Face, BERT, GPT, text classification, named entity recognition, sentiment analysis, scikit-learn, TensorFlow, PyTorch, pandas, Git, Linux
+Experience:
+- NLP Engineer at LanguageTech (2021–present): Fine-tuned BERT models for legal document classification. Built information extraction system processing 10K docs/day.
+- Research Assistant at University Lab (2019–2021): Published 2 papers on low-resource NLP. Implemented state-of-the-art NER models.
+Education: Ph.D. Computational Linguistics, Carnegie Mellon (2021)."
+
+"Emma Wilson","Data Science","Emma Wilson | Data Engineer | emma.w@email.com
+Summary: Data Engineer with 4 years building robust data pipelines and managing cloud data infrastructure.
+Skills: Python, SQL, Apache Spark, Kafka, Airflow, dbt, Snowflake, Redshift, BigQuery, AWS, Azure, Docker, Kubernetes, ETL, data pipeline, data warehouse, Git, Linux, PostgreSQL, MongoDB
+Experience:
+- Senior Data Engineer at CloudData (2022–present): Designed and maintained Snowflake data warehouse processing 500GB/day. Built real-time streaming pipelines with Kafka.
+- Data Engineer at Analytics Co (2020–2022): Migrated on-prem ETL to cloud-native architecture on AWS. Reduced pipeline latency by 60%.
+Education: B.S. Computer Engineering, Purdue University (2020)."
+
+"Frank Brown","Web Development","Frank Brown | Full-Stack Developer | frank.b@email.com
+Summary: Full-Stack Developer with 6 years building responsive web applications. Proficient in React, Node.js, and cloud deployment.
+Skills: JavaScript, TypeScript, React, React.js, Node.js, Express, HTML, CSS, Bootstrap, Tailwind, GraphQL, REST API, PostgreSQL, MongoDB, Redis, AWS, Docker, Git, GitHub, Jest, Cypress, Agile, Scrum, CI/CD
+Experience:
+- Senior Full-Stack Developer at WebAgency (2021–present): Led development of e-commerce platform serving 100K users. Built microservices architecture using Node.js and Docker.
+- Full-Stack Developer at StartupY (2019–2021): Developed real-time chat application using React and WebSockets. Implemented CI/CD pipelines with GitHub Actions.
+Education: B.S. Computer Science, Texas A&M (2019)."
+
+"Grace Kim","Web Development","Grace Kim | Frontend Developer | grace.k@email.com
+Summary: Frontend Developer specializing in React and modern JavaScript. Passionate about UI/UX and performance optimization.
+Skills: JavaScript, TypeScript, React, React.js, Next.js, Vue.js, HTML, CSS, Sass, Bootstrap, Tailwind, Redux, GraphQL, Jest, Webpack, Git, GitHub, Figma, accessibility, performance optimization
+Experience:
+- Frontend Developer at MediaCo (2022–present): Built React-based content management system used by 500+ editors. Achieved 95+ Google Lighthouse score through performance optimization.
+- Junior Frontend Developer at DigitalStudio (2020–2022): Developed responsive landing pages for 20+ clients. Implemented accessibility improvements per WCAG 2.1.
+Education: B.S. Information Technology, NYU (2020)."
+
+"Henry Davis","Web Development","Henry Davis | Backend Developer | henry.d@email.com
+Summary: Backend Developer with 5 years of experience building scalable APIs and microservices. Expert in Python and Java.
+Skills: Python, Java, Django, Flask, FastAPI, Spring Boot, REST API, GraphQL, PostgreSQL, MySQL, MongoDB, Redis, Docker, Kubernetes, AWS, Linux, Git, unit testing, integration testing, Agile, Scrum
+Experience:
+- Backend Engineer at ScaleUp (2021–present): Designed RESTful API serving 10M requests/day. Optimized database queries reducing response time by 40%.
+- Backend Developer at TechFirm (2019–2021): Built microservices for payment processing system. Implemented automated testing achieving 90% code coverage.
+Education: B.S. Computer Science, University of Illinois (2019)."
+
+"Isabella Garcia","Web Development","Isabella Garcia | DevOps Engineer | isabella.g@email.com
+Summary: DevOps Engineer with expertise in cloud infrastructure, CI/CD automation, and container orchestration.
+Skills: Docker, Kubernetes, AWS, Azure, GCP, Terraform, Ansible, Jenkins, CI/CD, Linux, bash, shell scripting, Python, Git, GitHub, GitLab, Prometheus, Grafana, Nginx, monitoring, security
+Experience:
+- DevOps Engineer at CloudSys (2021–present): Managed Kubernetes clusters serving 200+ microservices. Reduced deployment time from 2 hours to 10 minutes with CI/CD automation.
+- Systems Engineer at HostingCo (2019–2021): Automated infrastructure provisioning with Terraform. Maintained 99.99% uptime for critical services.
+Education: B.S. Information Systems, Ohio State (2019).
+Certifications: AWS Solutions Architect, Certified Kubernetes Administrator."
+
+"Jack Thompson","Human Resources","Jack Thompson | HR Manager | jack.t@email.com
+Summary: Strategic HR Manager with 8 years of progressive HR experience. Skilled in talent acquisition, performance management, and HR analytics.
+Skills: recruitment, talent acquisition, onboarding, performance management, employee relations, compensation, benefits, payroll, HRIS, Workday, BambooHR, ATS, applicant tracking, behavioral interviewing, training and development, learning and development, succession planning, workforce planning, HR analytics, people analytics, organizational development, change management, diversity and inclusion, DEI, employment law, conflict resolution, communication, leadership
+Experience:
+- HR Manager at Corporation A (2020–present): Led recruitment for 150+ positions annually. Implemented Workday HRIS reducing admin time by 35%. Launched DEI initiative increasing minority hiring by 25%.
+- HR Business Partner at MidCorp (2018–2020): Partnered with 5 business units on workforce planning. Managed performance review cycle for 400 employees.
+Education: B.S. Human Resources Management, Penn State (2016). SHRM-CP certified."
+
+"Karen White","Human Resources","Karen White | Talent Acquisition Specialist | karen.w@email.com
+Summary: Talent Acquisition specialist with 4 years expertise in full-cycle recruitment for tech companies. Strong in sourcing and candidate screening.
+Skills: recruitment, talent acquisition, candidate screening, applicant tracking, ATS, behavioral interviewing, onboarding, LinkedIn Recruiting, job posting, sourcing, employer branding, HR analytics, communication, negotiation, Workday, BambooHR
+Experience:
+- Senior Recruiter at TechHire (2022–present): Filled 80+ technical roles in 2023 with 30-day average time-to-fill. Built university recruiting program hiring 20 new grads annually.
+- Recruiter at StaffingCo (2020–2022): Sourced candidates for healthcare and finance clients. Achieved 95% offer acceptance rate.
+Education: B.S. Psychology, Boston University (2020).
+Certifications: LinkedIn Certified Recruiter."
+
+"Liam Johnson","Human Resources","Liam Johnson | L&D Specialist | liam.j@email.com
+Summary: Learning & Development specialist with 5 years designing and delivering corporate training programs.
+Skills: training and development, learning and development, organizational development, performance management, succession planning, coaching, mentoring, communication, presentation skills, change management, workforce planning, HR analytics, employee relations
+Experience:
+- L&D Manager at TrainCo (2021–present): Designed leadership development program for 200 managers. Reduced employee turnover by 15% through engagement initiatives.
+- Training Specialist at HR Solutions (2019–2021): Delivered onboarding training for 500+ new hires. Created e-learning modules with 4.8/5 satisfaction rating.
+Education: M.S. Organizational Psychology, Columbia University (2019)."
+
+"Mia Anderson","Human Resources","Mia Anderson | Compensation & Benefits Analyst | mia.a@email.com
+Summary: HR professional specializing in compensation, benefits, and payroll administration. Data-driven approach to total rewards strategy.
+Skills: compensation, benefits, payroll, HRIS, Workday, SuccessFactors, HR analytics, people analytics, employment law, financial analysis, Excel, SQL, workforce planning, communication, organizational development
+Experience:
+- Compensation Analyst at Fortune500Co (2021–present): Redesigned compensation structure saving $2M annually. Managed benefits enrollment for 2000+ employees.
+- HR Coordinator at MidSize Co (2019–2021): Processed biweekly payroll for 500 employees. Administered health and retirement benefits.
+Education: B.S. Business Administration, University of Florida (2019)."
+
+"Noah Taylor","Project Management","Noah Taylor | Project Manager | noah.t@email.com
+Summary: PMP-certified Project Manager with 7 years delivering complex IT and business transformation projects.
+Skills: project management, agile, scrum, kanban, Jira, Confluence, stakeholder management, risk management, budget management, resource planning, sprint planning, backlog grooming, user stories, communication, leadership, PMP, strategic thinking, decision making
+Experience:
+- Senior PM at ConsultingFirm (2020–present): Led $5M ERP implementation on time and under budget. Managed cross-functional team of 30. Achieved 98% client satisfaction score.
+- Project Manager at TechCo (2018–2020): Delivered 12 software projects using Agile/Scrum. Reduced project delivery time by 20% through process improvements.
+Education: B.S. Business Administration, Wharton (2016). PMP Certified. PRINCE2 Certified."
+
+"Olivia Moore","Project Management","Olivia Moore | Product Manager | olivia.m@email.com
+Summary: Product Manager with 5 years driving SaaS product strategy and roadmap execution. Data-driven leader.
+Skills: product management, product roadmap, agile, scrum, Jira, Confluence, stakeholder management, user stories, A/B testing, KPI, OKR, backlog grooming, sprint planning, market research, communication, strategic thinking, data analysis, SQL, Google Analytics
+Experience:
+- Product Manager at SaaS Platform (2021–present): Owned $10M ARR product line. Launched 3 major features increasing retention by 22%. Coordinated with engineering, design, and marketing.
+- Associate PM at ProductCo (2019–2021): Managed mobile app backlog with 200+ user stories. Conducted user research and usability testing.
+Education: MBA, University of Chicago (2019). B.S. Engineering, Cornell (2017)."
+
+"Peter Harris","Marketing","Peter Harris | Digital Marketing Manager | peter.h@email.com
+Summary: Digital Marketing professional with 6 years driving online growth through SEO, SEM, and content strategy.
+Skills: digital marketing, SEO, SEM, Google Ads, social media marketing, content marketing, email marketing, CRM, Salesforce, HubSpot, market research, brand management, copywriting, analytics, Google Analytics, lead generation, communication, creativity
+Experience:
+- Marketing Manager at GrowthCo (2021–present): Grew organic traffic by 180% through SEO strategy. Managed $500K Google Ads budget. Led team of 5 marketing specialists.
+- Digital Marketer at AgencyX (2019–2021): Executed social media campaigns reaching 1M+ users. Improved email open rates by 35%.
+Education: B.S. Marketing, University of Georgia (2019)."
+
+"Quinn Rodriguez","Marketing","Quinn Rodriguez | Content Strategist | quinn.r@email.com
+Summary: Content strategist and copywriter with 4 years creating compelling digital content across multiple channels.
+Skills: content marketing, copywriting, SEO, social media marketing, email marketing, brand management, communication, creativity, Google Analytics, market research, HubSpot, WordPress, Adobe Creative Suite
+Experience:
+- Content Manager at PublishNow (2022–present): Grew blog to 200K monthly readers through strategic content planning. Managed editorial calendar for 15 writers.
+- Content Writer at MarketingStudio (2020–2022): Wrote 300+ articles, whitepapers, and case studies. Achieved average 6% email click-through rate.
+Education: B.A. English Literature, University of Washington (2020)."
+
+"Rachel Clark","Finance","Rachel Clark | Financial Analyst | rachel.c@email.com
+Summary: CFA-chartered Financial Analyst with 5 years in investment analysis, financial modeling, and valuation.
+Skills: financial analysis, financial modeling, accounting, budgeting, forecasting, valuation, investment analysis, CFA, Excel, SQL, SAP, GAAP, IFRS, cash flow, income statement, balance sheet, PowerPoint, communication, analytical skills
+Experience:
+- Financial Analyst at InvestBank (2021–present): Built DCF valuation models for M&A transactions worth $500M+. Prepared quarterly financial reports for executive leadership.
+- Junior Analyst at CorpFinance (2019–2021): Supported annual budgeting process for $200M cost center. Automated reporting with Excel VBA saving 20 hours/month.
+Education: B.S. Finance, Georgetown University (2019). CFA Level 3 Charterholder."
+
+"Sam Lewis","Finance","Sam Lewis | Accountant | sam.l@email.com
+Summary: CPA with 4 years in public accounting and corporate finance. Expert in tax preparation and audit.
+Skills: accounting, auditing, tax preparation, bookkeeping, QuickBooks, SAP, GAAP, accounts payable, accounts receivable, payroll, financial analysis, Excel, communication, attention to detail, organizational skills
+Experience:
+- Senior Accountant at BigFour (2021–present): Led audit engagements for manufacturing and retail clients with revenues up to $500M. Prepared complex tax returns saving clients $2M in liabilities.
+- Staff Accountant at RegionalCPA (2019–2021): Managed month-end close for 10 clients. Filed 200+ individual and corporate tax returns annually.
+Education: B.S. Accounting, Ohio University (2019). CPA Licensed."
+
+"Tina Walker","Cybersecurity","Tina Walker | Cybersecurity Analyst | tina.w@email.com
+Summary: Information security professional with 4 years protecting enterprise networks. Experienced in vulnerability assessment and incident response.
+Skills: cybersecurity, network security, penetration testing, ethical hacking, firewall, encryption, SSL, TLS, SIEM, vulnerability assessment, ISO 27001, Python, Linux, security monitoring, risk management, communication
+Experience:
+- Security Analyst at SecureIT (2021–present): Conducted 50+ penetration tests identifying critical vulnerabilities. Implemented SIEM solution reducing incident detection time by 70%.
+- Junior Security Analyst at TechDefend (2019–2021): Monitored network traffic for anomalies. Responded to 100+ security incidents with zero data breaches.
+Education: B.S. Cybersecurity, Northeastern University (2019).
+Certifications: CompTIA Security+, CEH, CISSP (in progress)."
+
+"Uma Patel","Data Science","Uma Patel | Business Intelligence Developer | uma.p@email.com
+Summary: BI Developer with 5 years building data warehouses and dashboards for enterprise reporting.
+Skills: SQL, PostgreSQL, MySQL, data warehousing, ETL, Tableau, Power BI, Python, pandas, Excel, dbt, Snowflake, statistical analysis, data analysis, communication, analytical skills, attention to detail
+Experience:
+- BI Developer at EnterpriseData (2021–present): Built enterprise data warehouse consolidating 15 source systems. Created executive dashboards used by C-suite daily.
+- Data Analyst at AnalyticsCo (2019–2021): Designed Tableau dashboards tracking $100M in revenue. Automated month-end reporting saving 40 hours/month.
+Education: B.S. Information Science, University of Pittsburgh (2019)."
+
+"Victor Chen","Web Development","Victor Chen | Mobile Developer | victor.c@email.com
+Summary: Mobile developer specializing in iOS (Swift) and Android (Kotlin) with 4 years of experience.
+Skills: Swift, Kotlin, iOS, Android, React Native, JavaScript, REST API, Git, Xcode, Android Studio, Firebase, SQLite, unit testing, Agile, Scrum, communication, problem solving
+Experience:
+- Mobile Developer at AppStudio (2021–present): Built iOS app with 500K+ downloads and 4.8 App Store rating. Led Android migration to Kotlin.
+- Junior Mobile Developer at MobileFirst (2020–2021): Developed React Native cross-platform app for retail client. Implemented push notification system.
+Education: B.S. Computer Science, Cal Poly (2020)."
+
+"Wendy Scott","Human Resources","Wendy Scott | HR Coordinator | wendy.s@email.com
+Summary: HR Coordinator with 2 years supporting full HR lifecycle including recruitment, onboarding, and employee relations.
+Skills: recruitment, onboarding, employee relations, HRIS, BambooHR, ATS, applicant tracking, payroll, benefits, communication, organizational skills, multitasking, attention to detail, Microsoft Office, Excel
+Experience:
+- HR Coordinator at SME Inc (2022–present): Coordinated hiring process for 60+ roles. Managed new employee onboarding reducing ramp time by 15%.
+- HR Intern at HR Partners (2022): Assisted with job posting, candidate screening, and interview scheduling.
+Education: B.S. Business Administration (HR Concentration), University of Cincinnati (2022)."
+
+"Xander Brown","Data Science","Xander Brown | Quantitative Analyst | xander.b@email.com
+Summary: Quantitative analyst with expertise in statistical modeling, algorithmic trading, and risk analysis.
+Skills: Python, R, MATLAB, machine learning, statistical analysis, regression, time series, forecasting, SQL, pandas, NumPy, scikit-learn, financial analysis, risk management, communication, analytical skills
+Experience:
+- Quant Analyst at HedgeFund LLC (2021–present): Built algorithmic trading strategies achieving 15% annual alpha. Developed risk models for $2B portfolio.
+- Research Analyst at QuantResearch (2019–2021): Implemented statistical arbitrage models in Python. Published research on factor investing.
+Education: M.S. Financial Mathematics, MIT (2019). B.S. Mathematics, Princeton (2017)."
+
+"Yara Torres","Marketing","Yara Torres | Growth Hacker | yara.t@email.com
+Summary: Growth-focused marketer with 3 years experience driving user acquisition and retention through data-driven experiments.
+Skills: digital marketing, A/B testing, Google Analytics, SEO, SEM, Google Ads, social media marketing, email marketing, lead generation, HubSpot, CRM, data analysis, SQL, communication, creativity, analytical skills
+Experience:
+- Growth Manager at GrowthStartup (2022–present): Grew monthly active users from 50K to 500K in 18 months. Ran 100+ A/B tests improving conversion rate by 40%.
+- Marketing Analyst at DigitalAgency (2021–2022): Managed $200K monthly ad budget across Google and Facebook. Built attribution model to track marketing ROI.
+Education: B.S. Marketing, UCLA (2021)."
+
+"Zoe Adams","Project Management","Zoe Adams | Scrum Master | zoe.a@email.com
+Summary: Certified Scrum Master with 4 years facilitating Agile teams and driving continuous improvement.
+Skills: agile, scrum, kanban, Jira, Confluence, sprint planning, backlog grooming, stakeholder management, communication, leadership, coaching, mentoring, risk management, project management, teamwork, facilitation
+Experience:
+- Scrum Master at AgileShop (2021–present): Coached 3 cross-functional teams of 8-12 developers. Improved team velocity by 30% through process improvements and coaching.
+- Project Coordinator at TechAgile (2020–2021): Supported Agile transformation for 50-person engineering org. Facilitated daily standups, sprint planning, and retrospectives.
+Education: B.S. Business, Michigan State University (2020).
+Certifications: CSM (Certified Scrum Master), PMI-ACP."
