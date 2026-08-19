@@ -615,13 +615,133 @@ hr { border-color: rgba(255,255,255,0.06) !important; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(99,102,241,0.55); }
 
 /* ── Alerts ── */
-div[data-testid="stAlert"] {
-    background: rgba(99,102,241,0.08) !important;
-    border: 1px solid rgba(99,102,241,0.2) !important;
-    border-radius: 8px !important;
-    color: #a5b4fc !important;
+/* ── Mobile & Responsive Overrides ── */
+html, body, .stApp {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+}
+
+div[data-testid="stDataFrame"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+}
+
+.streamlit-expanderHeader {
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+    line-height: 1.4 !important;
+}
+
+.streamlit-expanderHeader p {
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+}
+
+@media (max-width: 768px) {
+    .main .block-container {
+        padding: 0.75rem 0.5rem 2.5rem !important;
+        max-width: 100% !important;
+    }
+
+    [data-testid="stHorizontalBlock"] {
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+
+    [data-testid="column"] {
+        width: 100% !important;
+        min-width: 100% !important;
+        flex: 1 1 100% !important;
+    }
+
+    .kpi-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px !important;
+    }
+
+    .kpi-card {
+        padding: 0.75rem 0.65rem !important;
+    }
+
+    .kpi-value {
+        font-size: 1.4rem !important;
+    }
+
+    .kpi-label {
+        font-size: 0.62rem !important;
+    }
+
+    .kpi-sub {
+        display: none !important;
+    }
+
+    .topbar {
+        padding: 0.65rem 0.85rem !important;
+        margin-bottom: 1rem !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 0.5rem !important;
+    }
+
+    .topbar-meta {
+        display: none !important;
+    }
+
+    .brand-name {
+        font-size: 0.95rem !important;
+    }
+
+    .tag {
+        font-size: 0.65rem !important;
+        padding: 2px 6px !important;
+        margin: 1px !important;
+    }
+
+    .feat-card {
+        padding: 1.1rem 0.9rem !important;
+    }
+
+    .feat-title {
+        font-size: 0.88rem !important;
+    }
+
+    .feat-desc {
+        font-size: 0.78rem !important;
+    }
+
+    .stRadio > div {
+        flex-direction: column !important;
+    }
+
+    .stRadio > div > label {
+        width: 100% !important;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .kpi-grid {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 6px !important;
+    }
+
+    .kpi-value {
+        font-size: 1.25rem !important;
+    }
+
+    .section-header-text {
+        font-size: 0.68rem !important;
+    }
+
+    .section-divider {
+        display: none !important;
+    }
 }
 </style>
+""",StartLine:618,TargetContent:
 """, unsafe_allow_html=True)
 
 
@@ -1182,11 +1302,9 @@ if rank_button:
     for rank, r in enumerate(results, start=1):
         score_html = score_badge(r.final_score_pct)
         label = (
-            f"#{rank}  {r.name}  —  "
-            f"Match: {r.final_score_pct:.1f}%  |  "
-            f"TF-IDF: {r.tfidf_score*100:.1f}%  |  "
-            f"Skills: {r.skill_score*100:.1f}%  |  "
-            f"Matched: {len(r.matched_skills)}  /  Missing: {len(r.missing_skills)}"
+            f"#{rank}  {r.name}  ·  "
+            f"{r.final_score_pct:.1f}% Match  "
+            f"({len(r.matched_skills)} matched, {len(r.missing_skills)} missing)"
         )
 
         with st.expander(label, expanded=(rank <= 3)):
