@@ -21,7 +21,7 @@ jd_text = "Looking for a Python developer skilled in machine learning, TensorFlo
 jd_proc, jd_doc = preprocess(jd_text)
 print(f"Input : {jd_text}")
 print(f"Output: {jd_proc}")
-print("PASS ✓")
+print("[PASS]")
 
 # ── Test 2: Skill Extraction ──────────────────────────────────────────────────
 sep("TEST 2: Skill Extraction")
@@ -38,7 +38,7 @@ match = compute_skill_match(jd_skills, resume_skills)
 print(f"Matched:  {match['matched_skills']}")
 print(f"Missing:  {match['missing_skills']}")
 print(f"Overlap:  {match['skill_overlap_ratio']:.2%}")
-print("PASS ✓")
+print("[PASS]")
 
 # ── Test 3: TF-IDF Ranker ─────────────────────────────────────────────────────
 sep("TEST 3: TF-IDF Ranking (3 candidates)")
@@ -69,7 +69,7 @@ results = compute_composite_scores(
 )
 df = results_to_dataframe(results)
 print(df[["Rank","Candidate","Match Score (%)","TF-IDF Score","Skill Score (%)","Matched Skills"]].to_string(index=False))
-print("PASS ✓")
+print("[PASS]")
 
 # ── Test 4: Sample Dataset ────────────────────────────────────────────────────
 sep("TEST 4: Sample Dataset Loader")
@@ -82,7 +82,7 @@ print(f"\nSample names: {df_all['name'].tolist()[:5]}")
 
 df_ds = load_sample_resumes(category_filter="Data Science")
 print(f"\nData Science resumes: {len(df_ds)}")
-print("PASS ✓")
+print("[PASS]")
 
 # ── Test 5: Full Dataset Ranking ──────────────────────────────────────────────
 sep("TEST 5: Full Dataset Ranking (Data Scientist JD vs all Data Science resumes)")
@@ -121,14 +121,14 @@ final_results = compute_composite_scores(
 df_out = results_to_dataframe(final_results)
 print("\nRanked Results:")
 print(df_out[["Rank","Candidate","Match Score (%)","TF-IDF Score","Skill Score (%)"]].to_string(index=False))
-print("PASS ✓")
+print("[PASS]")
 
 # ── CSV Export Test ───────────────────────────────────────────────────────────
 sep("TEST 6: CSV Export")
 out_path = "data/sample_ranking_output.csv"
 df_out.to_csv(out_path, index=False)
 print(f"CSV written to: {out_path}")
-print("PASS ✓")
+print("[PASS]")
 
-sep("ALL 6 TESTS PASSED ✓")
+sep("ALL 6 TESTS PASSED [OK]")
 print("The pipeline is working correctly. Run: streamlit run app.py")
